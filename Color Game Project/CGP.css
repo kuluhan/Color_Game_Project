@@ -1,0 +1,63 @@
+
+body{
+	background-color: #232323;
+}
+.jumbotron:nth-of-type(1){
+	color: white;
+	background: rgb(60, 132, 203);
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	margin-bottom: 0px; 
+	font-family: "Montserrat", "Avenir";
+}
+
+h1{
+	font-weight: normal;
+}
+
+.row{
+	background: white;
+	color: rgb(60, 132, 203);
+}
+
+.col-xs-4:nth-of-type(1){
+	text-align: right;
+}
+
+/*.col-xs-4:nth-of-type(1):hover span{
+	background-color: blue;
+	color: white;
+}*/
+
+.col-xs-4:nth-of-type(2){
+	text-align: center;
+}
+
+.col-xs-1:nth-of-type(1){
+	text-align: center;
+}
+
+.col-xs-1:nth-of-type(2){
+	text-align: center;
+}
+
+.jumbotron{
+	background-color: #232323;
+	width: 100%;
+}
+
+.container{
+	margin-top: 30px;
+	width: 33%;
+}
+
+.square{
+	width: 30%;
+	background-color: rgb(60, 132, 203);
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	/*transition: visibility 2.0s;*/
+}
